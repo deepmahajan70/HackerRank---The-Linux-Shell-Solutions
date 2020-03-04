@@ -25,3 +25,5 @@
 #(i.e. force grep to behave as egrep).
 
 grep -E '([0-9]) *\1+'
+# or this will also work
+grep '\([0-9]\)[[:blank:]]*\1'
